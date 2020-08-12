@@ -33,8 +33,8 @@ $tweaks = @(
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
 	"InstallAdobe",
 	"Install7Zip",
-	"InstallNotepadplusplus",
-	"InstallMediaPlayerClassic",
+	# "InstallNotepadplusplus",
+	# "InstallMediaPlayerClassic",
 
 	### Windows Apps
 	"DebloatAll",
@@ -114,22 +114,22 @@ $tweaks = @(
 	"HideTaskView",                 # "ShowTaskView",
 	# "ShowSmallTaskbarIcons",        # "ShowLargeTaskbarIcons",
 	# "SetTaskbarCombineWhenFull",    # "SetTaskbarCombineNever",     # "SetTaskbarCombineAlways",
-	# "HideTaskbarPeopleIcon",        # "ShowTaskbarPeopleIcon",
+	"HideTaskbarPeopleIcon",        # "ShowTaskbarPeopleIcon",
 	"ShowTrayIcons",                # "HideTrayIcons",
 	"DisableSearchAppInStore",      # "EnableSearchAppInStore",
 	"DisableNewAppPrompt",          # "EnableNewAppPrompt",
 	# "SetControlPanelSmallIcons",  # "SetControlPanelLargeIcons",  # "SetControlPanelCategories",
 	# "SetVisualFXPerformance",     # "SetVisualFXAppearance",
 	# "AddENKeyboard",              # "RemoveENKeyboard",
-	"EnableNumlock",             	# "DisableNumlock",
+	# "EnableNumlock",             	# "DisableNumlock",
 	"EnableDarkMode",				# "DisableDarkMode",
 	"Stop-EdgePDF",
 
 	### Explorer UI Tweaks ###
 	"ShowKnownExtensions",          # "HideKnownExtensions",
-	# "ShowHiddenFiles",              # "HideHiddenFiles",
+	"ShowHiddenFiles",              # "HideHiddenFiles",
 	"HideSyncNotifications"         # "ShowSyncNotifications",
-	# "HideRecentShortcuts",          # "ShowRecentShortcuts",
+	"HideRecentShortcuts",          # "ShowRecentShortcuts",
 	"SetExplorerThisPC",            # "SetExplorerQuickAccess",
 	"HideThisPCFromDesktop",	# "ShowThisPCOnDesktop",
 	# "ShowUserFolderOnDesktop",    # "HideUserFolderFromDesktop",
@@ -141,8 +141,8 @@ $tweaks = @(
 	# "HideDownloadsFromExplorer",  # "ShowDownloadsInExplorer",
 	"HideMusicFromThisPC",          # "ShowMusicInThisPC",
 	"HideMusicFromExplorer",      # "ShowMusicInExplorer",
-	# "HidePicturesFromThisPC",       # "ShowPicturesInThisPC",
-	# "HidePicturesFromExplorer",   # "ShowPicturesInExplorer",
+	"HidePicturesFromThisPC",       # "ShowPicturesInThisPC",
+	"HidePicturesFromExplorer",   # "ShowPicturesInExplorer",
 	"HideVideosFromThisPC",         # "ShowVideosInThisPC",
 	"HideVideosFromExplorer",     # "ShowVideosInExplorer",
 	"Hide3DObjectsFromThisPC",      # "Show3DObjectsInThisPC",
@@ -155,8 +155,8 @@ $tweaks = @(
 	"UninstallOneDrive",            # "InstallOneDrive",
 	"UninstallMsftBloat",           # "InstallMsftBloat",
 	"UninstallThirdPartyBloat",     # "InstallThirdPartyBloat",
-	# "UninstallWindowsStore",      # "InstallWindowsStore",
-	# "DisableXboxFeatures",          # "EnableXboxFeatures",
+	"UninstallWindowsStore",      # "InstallWindowsStore",
+	"DisableXboxFeatures",          # "EnableXboxFeatures",
 	"DisableAdobeFlash",            # "EnableAdobeFlash",
 	"InstallMediaPlayer", 		# "UninstallMediaPlayer",
 	"UninstallInternetExplorer",  # "InstallInternetExplorer",
@@ -166,8 +166,8 @@ $tweaks = @(
 	"SetPhotoViewerAssociation",    # "UnsetPhotoViewerAssociation",
 	"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
 	"InstallPDFPrinter",		# "UninstallPDFPrinter",
-	# "UninstallXPSPrinter",          # "InstallXPSPrinter",
-	# "RemoveFaxPrinter",             # "AddFaxPrinter",
+	"UninstallXPSPrinter",          # "InstallXPSPrinter",
+	"RemoveFaxPrinter",             # "AddFaxPrinter",
 
 	### Server Specific Tweaks ###
 	# "HideServerManagerOnLogin",   # "ShowServerManagerOnLogin",
@@ -179,7 +179,7 @@ $tweaks = @(
 
 	### Unpinning ###
 	"UnpinStartMenuTiles",
-	#"UnpinTaskbarIcons",
+	"UnpinTaskbarIcons",
 
 	### Auxiliary Functions ###
 	"WaitForKey"
